@@ -1,0 +1,130 @@
+{
+    "columns": [
+      {
+        "name": "id",
+        "type": "INT",
+        "constraints": ["PRIMARY KEY", "AUTO_INCREMENT"],
+        "description": "Unique identifier for each person"
+      },
+      {
+        "name": "first_name",
+        "type": "VARCHAR",
+        "constraints": ["NOT NULL"],
+        "description": "First name of the person"
+      },
+      {
+        "name": "last_name",
+        "type": "VARCHAR",
+        "constraints": ["NOT NULL"],
+        "description": "Last name of the person"
+      },
+      {
+        "name": "age",
+        "type": "INT",
+        "constraints": ["NOT NULL", "CHECK (age >= 0)"],
+        "description": "Age of the person"
+      },
+      {
+        "name": "is_resident",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is a resident of the state"
+      },
+      {
+        "name": "is_unemployed",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is unemployed"
+      },
+      {
+        "name": "has_insufficient_means",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person has insufficient means"
+      },
+      {
+        "name": "vision_impaired",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person has a vision impairment"
+      },
+      {
+        "name": "is_widow_or_widower",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is a widow or widower"
+      },
+      {
+        "name": "is_not_cohabiting",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is not cohabiting"
+      },
+      {
+        "name": "is_deserted_by_husband",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is deserted by their husband"
+      },
+      {
+        "name": "is_providing_care",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is providing full-time care to someone"
+      },
+      {
+        "name": "husband_in_prison",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person's husband is in prison"
+      },
+      {
+        "name": "is_single_woman",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is a single woman"
+      },
+      {
+        "name": "is_orphan",
+        "type": "BOOLEAN",
+        "constraints": ["NOT NULL"],
+        "description": "Whether the person is an orphan"
+      },
+      {
+        "name": "department",
+        "type": "VARCHAR",
+        "constraints": ["NOT NULL"],
+        "description": "Department the person belongs to"
+      },
+      {
+        "name": "hiring_manager",
+        "type": "VARCHAR",
+        "constraints": ["NOT NULL"],
+        "description": "Hiring manager for the person"
+      },
+      {
+        "name": "number_of_children",
+        "type": "INT",
+        "constraints": ["NOT NULL", "CHECK (number_of_children >= 0)"],
+        "description": "Number of children the person has"
+      },
+      {
+        "name": "date_of_hire",
+        "type": "DATE",
+        "constraints": [],
+        "description": "Date the person was hired"
+      },
+      {
+        "name": "employment_status",
+        "type": "VARCHAR",
+        "constraints": ["NOT NULL"],
+        "description": "Employment status of the person"
+      },
+      {
+        "name": "annual_income",
+        "type": "DECIMAL",
+        "constraints": ["CHECK (annual_income >= 0)"],
+        "description": "Annual income of the person"
+      }
+    ]
+}
