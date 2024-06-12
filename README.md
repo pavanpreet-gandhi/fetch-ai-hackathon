@@ -7,6 +7,7 @@
     - Things to consider:
         - Relationship between category, scheme, and price
         - RAG? External data (e.g. wikipedia for defenitions)?
+        - Second vice-Agent to check the results of the applied Logic from Agent 2
 1. Agent to take input table filter relevant information
     - Input: Table with all fields (`pd.DataFrame`)
     - Output: Table with relevant fields (`pd.DataFrame`)
