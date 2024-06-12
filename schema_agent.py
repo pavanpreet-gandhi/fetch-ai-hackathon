@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI() # this requires .env to contain the OPENAI_API_KEY
 
-def schema_agent(input_schema: dict, rules: str):
+def schema_agent(input_schema: dict, rules: str) -> dict:
     """
     This is an AI agent that extracts the relevant columns from a schema based on a set of rules that define a task.
 
@@ -27,7 +27,7 @@ def schema_agent(input_schema: dict, rules: str):
             {"role": "user", "content": "Please extract only the relevant columns from the schema based on the task. The final output should be a schema in JSON format."},
         ]
     )
-    return json.loads(completion.choices[0].message.content)
+    return json.loads(completion.choices[0].message.content) # load json from string and return as dictionary
 
 
 # Example Usage
