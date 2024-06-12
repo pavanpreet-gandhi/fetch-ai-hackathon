@@ -3,7 +3,7 @@
 ## Solution Structure
 1. Agent to parse information from document and create rules (via OpenAI assistants)
     - Input: document (word/pdf)
-    - Output: text summary of rules
+    - Output: text summary of rules to include Scheme name, Scheme rules, Price
     - Things to consider:
         - Relationship between category, scheme, and price
         - RAG? External data (e.g. wikipedia for defenitions)?
