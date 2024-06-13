@@ -1,0 +1,80 @@
+Here is the detailed structure and contents for Windows batch files to automate the activation of virtual environments and running your scripts.
+
+Project Directory Structure
+Copy code
+my_project/
+├── part1/
+│   ├── venv1/
+│   └── your_script1.py
+├── part2/
+│   ├── venv2/
+│   └── your_script2.py
+├── run_part1.bat
+└── run_part2.bat
+Batch Files
+run_part1.bat:
+
+bat
+Copy code
+@echo off
+cd part1
+call venv1\Scripts\activate
+python your_script1.py
+call deactivate
+cd ..
+run_part2.bat:
+
+bat
+Copy code
+@echo off
+cd part2
+call venv2\Scripts\activate
+python your_script2.py
+call deactivate
+cd ..
+Instructions to Use
+Place your batch files (run_part1.bat and run_part2.bat) in the root directory of your project (my_project/).
+
+Ensure the scripts your_script1.py and your_script2.py are in their respective directories (part1/ and part2/).
+
+Create and set up the virtual environments in their respective directories (part1/ and part2/).
+
+sh
+Copy code
+# Navigate to part1 and create a virtual environment
+cd part1
+python -m venv venv1
+
+# Activate the virtual environment
+venv1\Scripts\activate
+
+# Install the specific version of OpenAI
+pip install openai==0.14.0
+
+# Deactivate the virtual environment
+deactivate
+
+# Navigate back to the root directory
+cd ..
+
+# Repeat for part2
+cd part2
+python -m venv venv2
+venv2\Scripts\activate
+pip install openai==0.27.0
+deactivate
+cd ..
+Run the batch files to execute your scripts with the appropriate virtual environments:
+
+To run your_script1.py in part1:
+
+sh
+Copy code
+run_part1.bat
+To run your_script2.py in part2:
+
+sh
+Copy code
+run_part2.bat
+Summary
+By placing the batch files in the root directory and ensuring each script and its virtual environment are in their respective subdirectories, you can easily automate the activation of the correct environment and execution of each script. This method keeps your project organized and ensures that the dependencies do not conflict.
