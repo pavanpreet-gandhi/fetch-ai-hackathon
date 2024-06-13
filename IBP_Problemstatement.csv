@@ -1,0 +1,332 @@
+"General Details
+Full Scheme Name
+Example Pension Scheme (EPS) Pension Fund
+Scheme Established
+1 May 1974
+Contracted Out
+Yes
+Contracted Out Ended
+30 April 2003 (when accrual ceased)
+Post 5 April 1997 Basis
+Reference Scheme Test
+Equalisation Date
+Scheme 1"
+"Benefits for scheme 1 members have always been equal 
+Scheme 2"
+"1 November 1993"
+""
+"Section 1 - Payment Terms"
+"Term"
+""
+"Status"
+"Definition
+1.1
+Frequency Of Payment
+Pensioner
+Monthly, except member 2752 - please assume annually, next payment 27 March 2023
+1.2
+In Advance or in Arrears
+Pensioner
+All future retirees and dependants are set up in arrears. Which existing pensioners are paid in advance / arrears is shown in the member data. The final payment on death is the same regardless of advance / arrears and the next increase date is given in the data. 
+1.3
+Day of Payment
+Pensioner
+27th of the month"
+"If the 27th is a weekend or bank holiday the payment will be made on the last working day prior
+1.4
+Final Payment on Death
+Pensioner
+The last instalment of pension due is that which is in respect of the month in which the individual (member/spouse etc.) receiving the pension died, i.e. part-month overpayments on death are not reclaimed.
+Section 2 - Retirement Dates and Definitions"
+"Term"
+""
+"Section (if applies to just one section)"
+"Status"
+"Definition
+2.1.1
+Normal Retirement Date (""NRD"")
+Scheme 1
+Deferred
+The Normal Retirement Dates are shown in the data and were calculated as follows:"
+"(i) The member's 60th birthday, if the period between date of joining the company and age 60 would be at least 30 years; or"
+"(ii) the date between the member's 60th and 65th birthday, when the period between date of joining the company and the relevant date would be 30 years; or"
+"(iii) if the period between date of joining the company and the member's 65th birthday would be less than 30 years, the Normal Retirement Date would be age 65.
+
+
+Scheme 2
+Deferred
+Age 65 (for those who joined the company after 1 November 1993)"
+"Age 65 for males and age 60 for females (for those who left the company before 1 November 1993)"
+"Age 65 (for those in company service on 1 November 1993), but these individuals have the right to retire at any age between 60 and 65 and for these members NRD has been set to 60 in the data
+2.2
+Early Retirement
+
+Deferred
+Benefits will be reduced on a cost neutral basis
+2.2.1
+Early Retirement Eligibility
+
+Deferred
+From 55th Birthday
+2.2.2
+Early Retirement Ill Health Eligibility
+
+Deferred
+Members can retire at any age if the Scheme's ""Incapacity"" definition is met - Benefits will be reduced on a cost neutral basis 
+2.2.3
+Early Retirement Serious Ill Health Eligibility
+
+Deferred
+If a member is in an exceptional state of serious ill-health a lump sum may be paid equal to the maximum cash the member could take if they retired immediately, plus the undiscounted value of five years' pension payments 
+2.3
+Late Retirement
+
+Deferred
+Pension is increased using cost neutral factors, but pension must commence before the member attains the age of 75."
+"Any Scheme 2 benefits which can be taken unreduced from age 60 will be increased using a cost-neutral basis if they are taken after age 60. 
+2.4
+Commutation Available
+
+Deferred
+Yes - maximum allowable under post 5 April 2006 legislation 
+2.5
+Guarantee Period
+
+Deferred
+5 years from the member's retirement date
+Section 3 - Pension Revaluation in Deferment"
+"Tranche"
+""
+"Status"
+"Definition"
+"(Please see the Exception Cases referred to below too)
+3.1
+Pre 6/4/1988 GMP
+Deferred
+Fixed Rate Revaluation
+
+Post 5/4/1988 GMP
+Deferred
+As per Pre 6/4/1988 GMP
+
+All non GMP benefits
+Deferred
+Fixed 7.5%
+3.2
+Increase Reference
+Deferred
+GMP - Complete tax years from date of leaving to member's nominated date of retirement, with statutory increases as appropriate from GMP Age."
+"Non-GMP - Complete years from date of leaving to member's nominated date of retirement"
+""
+""
+""
+""
+""
+""
+""
+""
+"Section 4 - Pension Increases in Payment"
+"Tranche"
+""
+"Status"
+"Definition
+4.1
+Pre 6/4/1988 GMP
+Pensioner
+Fixed 7.5%
+
+Post 5/4/1988 GMP
+Pensioner
+Fixed 7.5%
+
+Pre 6/4/1997 Excess
+Pensioner
+Fixed 7.5%
+
+6/4/1997 to"
+"30/4/1999"
+"Benefits
+Pensioner
+Fixed 7.5%
+
+Post 30/4/1999 Benefits
+Pensioner
+RPI subject to a minimum increase of 0% and a maximum increase of 5%
+
+Money Purchase Benefits
+Pensioner
+Increases in payment are as shown in the data
+4.2
+Date of increase
+Pensioner
+Increase date (and the payment to which this is applied) is shown in the data. For future retirees the increase date is on the 1st of the month following the anniversary of retirement (payment made on the 27th of the month following the increase date)  
+4.3
+Reference month for index linked increases
+Pensioner
+3 months prior to the increase date shown in the data.  NB Where a pension becomes payable to a spouse etc. in the event of a member's death after retirement the increase date and the inflation month used will remain the same as used for the pensioner, but the increase will always be paid in arrears for spouses' etc. pensions set up. 
+4.4
+Increases given on GMP before GMP Age
+Pensioner
+In line with non-GMP increases
+4.5
+Reduced if negative inflation over reference period?
+Pensioner
+No
+4.6
+Step-up at GMP Age where Normal Retirement Date (""NRD"") falls before GMP Age
+Pensioner
+Only if a statutory requirement"
+""
+"For retirements before NRD - minimum pre 6 April 1997 pension payable at GMP Age of revalued GMP"
+"4.7
+Step-up at GMP Age for any other reason
+Pensioner
+Only if a statutory requirement
+4.8
+Historic Pre 6 April 2006 Inland Revenue Maximum Cases
+Pensioner
+The pension increases for those pensioners which were being restricted prior to 6 April 2006 to comply with Inland Revenue limits continue to be restricted in the same way, with this also applying to spouses' pensions subsequently set up in respect of these members, where applicable.  These two individuals are identified in the data.  Please assume that all pension for these two members increases at the greater of 3% or RPI for this purpose, being the RPI in respect of the month in which a member retired."
+""
+""
+""
+""
+""
+""
+"Section 5 - Death Before Normal Retirement Date"
+"Term"
+""
+"Status"
+"Definition
+5.1
+Widow/Widower's Pension
+Deferred
+For the purpose of the quotation please assume 50% of pension at DOL revalued to the member's date of death 
+5.2
+Lump Sum
+Deferred
+None
+5.3
+Children's Pension
+Deferred
+None
+5.4
+Start date of Widow/Widower's pension 
+Deferred  
+Immediately (starting on the day of the member's death)
+5.5
+Do benefits cease on remarriage of Widow/Widower?
+Deferred
+No
+5.6
+Commutation available?
+Deferred
+Yes, where possible, i.e. Trivial Commutation Lump Sum Death Benefits can be paid
+Section 6 - Death After Taking Retirement Benefits from the Scheme"
+"Term"
+""
+"Status"
+"Definition
+6.1
+Qualifying Spouse's Pension
+Pensioner
+50% of member's pre-commutation pension, i.e. 50% of what the member's pension would have been at the date of death if the member had not exchanged any of his pension for a lump sum or to provide a pension for a dependant (in addition to any dependant's pension that would be payable under the Scheme Rules).  If the Qualifying Spouse is more than 10 years younger than the member, the Qualifying Spouse's pension should be reduced on a cost neutral basis to the same 'cost' as if the spouse were 10 years younger.
+6.2
+Lump Sum
+Pensioner
+If death occurs within 5 years of the member's pension starting, a lump sum equal to the total of the pension payments that would have been payable to the pensioner during the balance of the 5 years, at the rate payable at the date of retirement (and after taking into account the exercise of any option used by the member to exchange pension for a lump sum).  The lump sum would be payable at the Trustees' discretion and on an undiscounted basis with no increases.
+6.3
+Qualifying Children's Pension
+Pensioner
+Where there is no Qualifying Spouse at the date of the pensioner's death, the initial Qualifying Children's pension will be equal to the Qualifying Spouse's pension which would have been payable had there been a Qualifying Spouse, except that any reduction that would have applied to the Qualifying Spouse's Pension due to age will not apply.  Where a Qualifying Children's pension becomes payable due to the Qualifying Spouse's pension ceasing to be payable, the initial amount of the Qualifying Children's pension will be equal to the Qualifying Spouse's pension previously being paid.
+6.4
+Do spouses/children's/dependants' pensions start immediately or at the end of the guarantee period?
+Pensioner
+Immediately (starting on the day of the member's death)
+6.5
+First increase proportionate for spouses'/dependants' pension following death of member?
+Pensioner
+No.  For pensions becoming payable to spouses etc. on the death of a member after taking retirement benefits from the Scheme the effective increase date will be as shown in section 4.2 of this Benefit specification.
+6.6
+Do benefits cease on remarriage of spouse?
+Pensioner
+No
+6.7
+Commutation available?
+Pensioner 
+Yes, where possible, i.e. Trivial Commutation Lump Sum Death Benefits can be paid"
+""
+""
+""
+"Section 7 - Death After Reaching Normal Retirement Date (""NRD"") without having taken Retirement Benefits from the Scheme"
+"Term"
+""
+"Status"
+"Definition
+7.1
+Qualifying Spouse's Pension
+Deferred past NRD
+50% of the pension the deferred member would have been entitled to had he or she retired on the day before he or she died.  If the Deferred Pensioner's Qualifying Spouse is more than 10 years younger than the deferred member, the Qualifying Spouse's pension should be reduced on a cost neutral basis to the same 'cost' as if the spouse were 10 years younger.
+7.2
+Lump Sum
+Deferred past NRD
+A lump sum equal to 3 times the pension the deferred member would have been entitled to had he or she retired on the day before he or she died.  The lump sum would be payable at the Trustees' discretion and on an undiscounted basis.
+7.3
+Qualifying Children's Pension
+Deferred past NRD 
+An amount equal to the qualifying spouse's pension payable (but with no reduction due to age) if no spouse's pension is payable under 7.1 or on cessation of the spouse's pension (any reduction due to age of spouse would continue) - and shared equally between all eligible children 
+7.4
+Start date of spouses'/children's/dependants' pension 
+Deferred past NRD 
+Immediately (starting on the day of the member's death)
+7.5
+First increase proportionate for spouses'/dependants' pension following death of member?
+Deferred past NRD 
+No.  The effective increase date will be as shown in section 4.2 of this Benefit specification.
+7.6
+Do benefits cease on remarriage of spouse?
+Deferred past NRD 
+No
+7.7
+Commutation available?
+Deferred past NRD
+Yes, where possible, i.e. Trivial Commutation Lump Sum Death Benefits can be paid
+Section 8 - Dependant Definitions"
+"Term"
+""
+"Status"
+"Definition
+8.1
+Qualifying Spouse
+Pensioner/Deferred Past NRD
+Spouse of the member who was not divorced or judicially separated from the member and ordinarily resident with the member at the time of the member's death, provided that the Trustees may at their discretion determine that a spouse who married a pensioner after he or she started to draw his pension and where the marriage occurred within 6 months of the pensioner's death shall not be treated as the pensioner's spouse for the purposes of paying all or any part of the Qualifying Spouse's pension (with the exception being that any statutory minimum benefits required by contracting-out legislation to be paid to the spouse will be paid)."
+"With the consent of the Principal Employer, a person who was not the member's spouse at the date of the member's death shall be deemed to be the member's spouse provided that he or she was wholly or partly financially dependent upon the member at the date of death."
+""
+"Where two or more persons are eligible to receive the Qualifying Spouse's Pension, the Trustees shall either divide the benefit between the persons in such proportions as they think fit, or exclude one or more persons from receiving all or any part of the Qualifying Spouse's pension, as they think fit. 
+8.2
+Qualifying Child
+Pensioner/Deferred Past NRD
+A child under the age of 18, or either over the age of 18 and in the opinion of the Trustees suffering from a disability, or over the age of 18 and under the age of 23 and in full-time education approved by the Trustees.  A child will also be either:"
+"(i) a natural child of a marriage of the member, or stepchild of the member by virtue of a marriage entered into by the member on or before the Material Date, or"
+"(ii) a child of the member legally adopted on or before the Material Date, or"
+"(iii) a child legitimised by a marriage entered into by the member on or before the Material Date, or"
+"(iv) any other child who the member was legally obliged to maintain (in whole or in part) on or before the Material Date (except by voluntarily entering into a deed of covenant or contract to maintain the child), or"
+"(v) at the discretion of the Trustees, any natural child of the member not born of or legitimised by a marriage of the member."
+"Material Date means the earlier of:"
+"a) the date the member's pension commenced in payment and"
+"b) the date of the member's death"
+"The Trustees will divide the Qualifying Children's pension between any one or more of the member's Qualifying Children in such proportions as they shall determine.  In doing so the Trustees will take account of the fact that under the Rules that existed prior to the 17 May 2000 ones a single legitimate child under age 18 would have expected to receive the whole of the benefit, whereas the 17 May 2000 Rules widened the range of potential beneficiaries."
+"A pension payable due to disability may be reduced or terminated by the Trustees, if the Principal Employer is satisfied that the Qualifying Child is no longer suffering from a disability.
+8.3
+Young Spouse's Reduction
+Pensioner/Deferred Past NRD
+If the Pensioner's Qualifying Spouse is more than 10 years younger than the Pensioner/Deferred Past NRD, the initial annual amount of Qualifying Spouse's pension will be reduced on a cost neutral basis.
+8.4
+Minimum length of marriage before death
+Pensioner/Deferred Past NRD
+If a member marries after retiring and dies within six months of the marriage, the spouse's pension payable may be restricted at the discretion of the Trustees (the minimum pension to satisfy any statutory requirements would however need to be paid)
+8.5
+Widower/Widower
+Deferred under NRD
+As defined in the contracting-out regulations"
+""
+""
