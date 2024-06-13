@@ -11,12 +11,19 @@ The following are the agent files:
 3. The `scheme_agent.py` takes each row from the table of employees and oututs the primary scheme that the user qualifies for along with it's reasoning based on the rules from the doc analysis agent. It uses a local language model running on `ollama` to prevent PII (personally identifiable information) and sensative data from being exposed to openai.
 4. The final `price_agent.py` takes the reasoning output of the scheme agent and draws upon it's internal knowldege of insurance (potentially provided by RAG or system prompting) assess the price of the empployee. It also uses GPT-4o as the reasoning engine and the `openai` library (new version).
 
+### Demo
+To run the demo yoursef, install all the requirements into your virtual environment and run the following command:
+```
+python price_agent.py
+```
+
 ## Solution Structure
 1. Agent to parse information from document and create rules (via OpenAI assistants)
     - Input: document (word/pdf)
     - Output: text summary of rules to include Scheme name, Scheme rules, Price
     - Things to consider:
         - Relationship between category, scheme, and price
+
         - RAG? External data (e.g. wikipedia for defenitions)?
         - Second vice-Agent to check the results of the applied Logic from Agent 2
 1. Agent to take input table filter relevant information
