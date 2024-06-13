@@ -22,6 +22,12 @@
         - There should be a function that transforms the tabular input into a prompt
 
 ## Additional features
-- [ ] Custom frontend
-- [ ] AI firewall (only required if agent 3 uses a non-local LLM)
-- [ ] Chat fetaure that allows users to change their data and see any resulting change in category
+- Custom frontend
+- AI firewall (only required if agent 3 uses a non-local LLM)
+- Chat fetaure that allows users to change their data and see any resulting change in category
+
+### Features and Limitations of the current repository:
+- [x] All agents work end to end
+- [x] All agents are interoperable
+- [ ] All agents are functioning within the micro-agent architechture
+- [ ] Product is working end-to-end on micro-agents
