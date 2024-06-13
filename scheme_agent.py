@@ -25,7 +25,8 @@ def create_scheme_analysis(user_message: str, rules: str) -> str:
     """
     system_message = f"""
     You are a helpful AI assistant who is an expert at insurance schemes. 
-    Your job is to accurately determine which scheme a user falls into based on their personal information. 
+    Your job is to accurately determine which scheme a user falls into based on their personal information.
+    Do not make up any information, only answer with the information provided.
     You must use the following rules to determine the scheme: \n\n{rules}
     """
     messages = [
@@ -36,14 +37,14 @@ def create_scheme_analysis(user_message: str, rules: str) -> str:
     return response['message']['content']
 
 
-def extract_scheme_result(scheme_analysis: str, rules: str) -> str:
+def extract_primary_scheme(scheme_analysis: str, rules: str) -> str:
     """
-    Sub-agent to extract the result of the scheme analysis (the primary scheme).
+    Sub-agent to extract the primary scheme from the scheme analysis.
     """
     system_message = f"""
     You are a helpful AI assistant who is an expert at insurance schemes. 
-    Your job is to output the scheme that the user is matched to based on the provided analysis.
-    Only reply with the scheme name and nothing else. Strip away any markdown formatting. If the user is not compatible with any scheme, reply with 'No Scheme'.
+    Your job is to output the scheme that the user is matched to based on the provided analysis. If there are multiple schemes, pick the one that could be the primary scheme.
+    Only reply with one scheme name and nothing else. Strip away any markdown formatting. If the user is not compatible with any scheme, reply with 'No Scheme'.
     You must use the scheme names from the following rules: \n\n{rules}
     """
     messages = [
@@ -57,14 +58,14 @@ def extract_scheme_result(scheme_analysis: str, rules: str) -> str:
 """
 THIS IS THE MAIN AGENT
 """
-def get_primary_scheme_agent(row: pd.Series, schema: dict, rules: str) -> str:
+def scheme_agent(row: pd.Series, schema: dict, rules: str) -> str:
     """
     Agent to get the primary scheme based on the row data.
     """
     user_message = create_user_message(row, schema)
     scheme_analysis = create_scheme_analysis(user_message, rules)
-    scheme = extract_scheme_result(scheme_analysis, rules)
-    return scheme
+    scheme = extract_primary_scheme(scheme_analysis, rules)
+    return scheme, scheme_analysis
 
 
 # Example usage
@@ -100,5 +101,6 @@ if __name__ == '__main__':
 
     # Get the primary scheme for the first row
     row = df.iloc[0]
-    scheme = get_primary_scheme_agent(row, required_schema, rules)
+    scheme, scheme_analysis = scheme_agent(row, required_schema, rules)
     print(scheme)
+    print(scheme_analysis)
