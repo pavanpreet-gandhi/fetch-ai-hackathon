@@ -1,5 +1,5 @@
 # Fetch.ai Hackathon Project
-This repo contains the underlying logic for the agents that can be easily ported as fetch.ai agents. Each agent can work independantly from each other but are interoperable, making them ideal for the [fetch.ai] ecosystem.
+This repo contains the underlying logic for the agents that can be easily ported as fetch.ai agents. Each agent can work independantly from each other but are interoperable, making them ideal for the fetch.ai ecosystem.
 
 Each agent can be run by pip installing everything from `requirements.txt` except the doc-aalysis-agent which reuires an older version of the `openai` library as specified in `requirements.txt`.
 
