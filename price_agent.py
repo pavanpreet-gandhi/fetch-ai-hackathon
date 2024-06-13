@@ -32,7 +32,7 @@ def price_agent(scheme_analysis: str, pricing_rules: str) -> str:
 # Example Usage
 if __name__ == '__main__':
 
-    # Agent 1
+    # Sample output from agent 1
     rules = """
     | Scheme | Scheme Rules |
     |--------|--------------|
