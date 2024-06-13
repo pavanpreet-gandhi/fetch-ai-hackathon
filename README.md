@@ -1,4 +1,9 @@
 # Fetch.ai Hackathon Project
+This repo contains the underlying logic for the agents that can be easily ported as fetch.ai agents. Each agent can work independantly from each other but are interoperable, making them ideal for the [fetch.ai] ecosystem.
+
+Each agent can be run by pip installing everything from `requirements.txt` except the doc-aalysis-agent which reuires an older version of the `openai` library as specified in `requirements.txt`.
+
+We hope to pathch these issues in future versions to create an end-to-end working solution tha runs on the AI engine aith DeltaV.
 
 ## Solution Structure
 1. Agent to parse information from document and create rules (via OpenAI assistants)
@@ -29,5 +34,6 @@
 ### Features and Limitations of the current repository:
 - [x] All agents work end to end
 - [x] All agents are interoperable
+- [ ] All agents work with the same requirements
 - [ ] All agents are functioning within the micro-agent architechture
 - [ ] Product is working end-to-end on micro-agents
