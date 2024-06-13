@@ -6,9 +6,9 @@ Each agent can be run by pip installing everything from `requirements.txt` excep
 We hope to pathch these issues in future versions to create an end-to-end working solution tha runs on the AI engine aith DeltaV.
 
 The following are the agent files:
-1. `doc_analysis_agent,py` is responsible for extractig the relevant information from the document usingthe `openai` library (older version) with GPT-4o.
-2. The `schema_agent.py` takes as input the schema of the data in JSON format and returns a new schema which only contains the relevant columns required for the task (in this case figuring out the pension scheme that the user qualifies for)
-3. The `scheme_agent.py` takes each row from the table of employees and oututs the primary scheme that the user qualifies for along with it's reasoning based on the rules from the doc analysis agent.
+1. `doc_analysis_agent.py` is responsible for extractig the relevant information from the document usingthe `openai` library (older version) with GPT-4o.
+2. The `schema_agent.py` takes as input the schema of the data in JSON format and returns a new schema which only contains the relevant columns required for the task (in this case figuring out the pension scheme that the user qualifies for).
+3. The `scheme_agent.py` takes each row from the table of employees and oututs the primary scheme that the user qualifies for along with it's reasoning based on the rules from the doc analysis agent. It uses a local language model running on `ollama` to prevent PII (personally identifiable information) and sensative data from being exposed to openai.
 4. The final `price_agent.py` takes the reasoning output of the scheme agent and draws upon it's internal knowldege of insurance (potentially provided by RAG or system prompting) assess the price of the empployee.
 
 ## Solution Structure
